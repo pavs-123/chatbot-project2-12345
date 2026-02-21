@@ -1,0 +1,31 @@
+==================================================================
+FINAL PUSH INSTRUCTIONS - Run these commands in your terminal
+==================================================================
+
+OPTION 1: Force Push (Replaces everything on GitHub with your local files)
+--------------------------------------------------------------------------
+git push -u origin main --force
+
+When prompted:
+  Username: pavs-123
+  Password: [Your GitHub Token]
+
+
+OPTION 2: Pull then Push (Merges GitHub content with your local files)
+-----------------------------------------------------------------------
+git pull origin main --allow-unrelated-histories --no-edit
+git push -u origin main
+
+When prompted:
+  Username: pavs-123
+  Password: [Your GitHub Token]
+
+
+RECOMMENDED: Use OPTION 1 (Force Push)
+---------------------------------------
+Since you want all your local files on GitHub and don't care about what's 
+already there, use OPTION 1.
+
+
+After pushing, verify at: https://github.com/pavs-123/chatbot-project2
+==================================================================
