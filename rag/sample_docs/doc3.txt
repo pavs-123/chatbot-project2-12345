@@ -1,0 +1,1 @@
+OpenAI embeddings like text-embedding-3-small provide vector representations used for semantic search.

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cc-workflow-studio": {
+      "type": "http",
+      "url": "http://127.0.0.1:65349/mcp"
+    },
+    "weather": {
+      "command": "python",
+      "args": ["-m", "mcp_weather.server", "--stdio"]
+    }
+  }
+}

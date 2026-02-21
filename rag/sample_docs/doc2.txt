@@ -1,0 +1,1 @@
+Chroma is a local vector database that can persist embeddings to disk and is easy to use with LangChain.
